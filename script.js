@@ -5,6 +5,7 @@ function onready(){
         emojis: ['👍'],
         emojiSize: 150,
         confettiNumber: 60,
+        confettiRadius: 15,
         })
         setTimeout(function(){
             if (window.innerHeight > window.innerWidth){
