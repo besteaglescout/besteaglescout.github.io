@@ -1,6 +1,6 @@
 ul { display: inline-block; text-align: left; }
 #title{
-  font-family: 'Francois One', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 #buttons{
   position: fixed;
@@ -32,14 +32,17 @@ body{
 
 }
 #what{
-  font-family: 'Francois One', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 #when{
-  font-family: 'Francois One', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 #sign{
-  font-family: 'Francois One', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 #bold{
   color: red;
+}
+#image{
+  width: 100%;
 }
