@@ -3,7 +3,7 @@ function onready(){
     once = true
     jsConfetti.addConfetti({
         emojis: ['👍'],
-        emojiSize: 100,
+        emojiSize: 150,
         confettiNumber: 60,
         })
         setTimeout(function(){
