@@ -1,11 +1,40 @@
 ul { display: inline-block; text-align: left; }
-
+#title{
+  font-family: 'Rampart One', cursive;
+}
 #buttons{
   position: fixed;
 }
 button{
-  font-size: 2vw;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5vw;
+  background: linear-gradient(0deg, aqua 25%, lime 80%);
 }
 body{
+  font-family: 'Signika', sans-serif;
   font-size: 2vw;
+  background: linear-gradient(150deg, lightskyblue 25%, transparent 80%);
+  background-size: 100px 100px; 
+  background-color: lightblue;
+  background-position: 50px 50px;
+}
+#spacing{
+  margin: 5%;
+}
+#disclaimer{
+  position: absolute;
+  font-size: 1vw;
+
+}
+#what{
+  font-family: 'Rampart One', cursive;
+}
+#when{
+  font-family: 'Rampart One', cursive;
+}
+#sign{
+  font-family: 'Rampart One', cursive;
+}
+#bold{
+  color: red;
 }
