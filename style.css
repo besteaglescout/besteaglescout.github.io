@@ -1,11 +1,16 @@
 ul { display: inline-block; text-align: left; }
 #title{
-  font-family: 'Rampart One', cursive;
+  font-family: 'Francois One', sans-serif;
 }
 #buttons{
   position: fixed;
+  width: 100%;
+  bottom:0;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 button{
+  border: 2px black double;
   font-family: 'Rubik', sans-serif;
   font-size: 2.5vw;
   background: linear-gradient(0deg, aqua 25%, lime 80%);
@@ -27,13 +32,13 @@ body{
 
 }
 #what{
-  font-family: 'Rampart One', cursive;
+  font-family: 'Francois One', sans-serif;
 }
 #when{
-  font-family: 'Rampart One', cursive;
+  font-family: 'Francois One', sans-serif;
 }
 #sign{
-  font-family: 'Rampart One', cursive;
+  font-family: 'Francois One', sans-serif;
 }
 #bold{
   color: red;
