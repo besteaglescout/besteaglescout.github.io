@@ -5,7 +5,7 @@ ul { display: inline-block; text-align: left; }
 #buttons{
   position: fixed;
   width: 100%;
-  bottom:0;
+  bottom: 2%;
   left: 50%;
   transform: translate(-50%, 0%);
 }
@@ -25,7 +25,7 @@ body{
   background-position: 50px 50px;
 }
 #spacing{
-  margin: 5%;
+  margin: 6%;
 }
 #disclaimer{
   position: absolute;
