@@ -18,7 +18,7 @@ function onready(){
                 }, 1000)
             }
 
-        }, 8000)
+        }, 5000)
     /*var y = window.innerHeight
     var x = window.innerWidth
     document.getElementById("buttons").style.top = (y-document.getElementById("buttons").offsetHeight)
@@ -45,4 +45,3 @@ function tosign(){
     location.hash = "sign"
     document.getElementById("sign").style.background = "yellow"
 }
-
