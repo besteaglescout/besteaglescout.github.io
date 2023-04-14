@@ -1,6 +1,10 @@
 ul { display: inline-block; text-align: left; }
 #title{
   font-family: 'Rubik', sans-serif;
+  background-image: url("coolTreeWallpaper.jpeg");
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 #buttons{
   position: fixed;
@@ -8,18 +12,19 @@ ul { display: inline-block; text-align: left; }
   bottom: 2%;
   left: 50%;
   transform: translate(-50%, 0%);
+  z-index: 1;
 }
 button{
   color: black;
-  border: 2px black double;
+  border: 3px black solid;
   font-family: 'Rubik', sans-serif;
   font-size: 2.5vw;
-  background: linear-gradient(0deg, aqua 25%, lime 80%);
+  background: linear-gradient(0deg, coral 25%, salmon 80%);
 }
 body{
   font-family: 'Signika', sans-serif;
   font-size: 2.5vw;
-  background: linear-gradient(150deg, lightskyblue 25%, transparent 80%);
+  background: linear-gradient(150deg, powderblue 25%, lightskyblue 80%);
   background-size: 100px 100px; 
   background-color: lightblue;
   background-position: 50px 50px;
@@ -46,4 +51,11 @@ body{
 }
 #image{
   width: 100%;
+}
+.ye{
+  width: 80%;
+}
+audio::-webkit-media-controls-timeline,
+video::-webkit-media-controls-timeline {
+    display: none;
 }
